@@ -1,0 +1,143 @@
+/* Fundo estilo via láctea */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: radial-gradient(circle at top left, #1a1a2e, #0f0c29, #301934);
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Container central */
+#root {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Cabeçalho */
+header {
+  margin-bottom: 30px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Painel de fundo para os componentes */
+main {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(138, 43, 226, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+/* Botões */
+button {
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #9b30ff;
+  transform: translateY(-2px);
+}
+
+/* Inputs */
+input {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  background-color: #1e1e2f;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 10px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  border-color: #9b30ff;
+}
+
+/* Lista */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: rgba(255, 255, 255, 0.05);
+  margin: 4px 0;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Grid do jogo da velha */
+.grid-ttt {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  gap: 6px;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+.grid-ttt button {
+  width: 60px;
+  height: 60px;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #333;
+  border: 2px solid #6a0dad;
+}
+
+/* Calculadora */
+.calc-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 8px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.calc-grid button {
+  font-size: 16px;
+}
+
+/* Botão limpar especial */
+button.clear {
+  grid-column: span 4;
+  background-color: #ff4d4d;
+}
+
+button.clear:hover {
+  background-color: #ff6666;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://cdn.pixabay.com/photo/2018/03/29/19/34/northern-lights-3273425_1280.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  min-height: 100vh;
+}
+
